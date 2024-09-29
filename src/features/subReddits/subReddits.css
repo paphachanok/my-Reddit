@@ -1,0 +1,51 @@
+/* Basic reset for list styles */
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+  }
+
+  /* Container for the subreddit list */
+  .subreddit-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px; /* Space between subreddit cards */
+	padding: 16px;
+  }
+
+  /* Style for each subreddit card */
+  .subreddit-card {
+	background-color: #f8f9fa; /* Light background */
+	border: 1px solid #dee2e6; /* Light border */
+	border-radius: 8px;
+	padding: 16px;
+	width: 200px; /* Fixed width */
+	text-align: center;
+	transition: transform 0.2s; /* Smooth hover effect */
+  }
+
+  /* Hover effect for subreddit cards */
+  .subreddit-card:hover {
+	transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+
+  /* Style for subreddit icons */
+  .subreddit-icon {
+	width: 48px; /* Icon width */
+	height: 48px; /* Icon height */
+	border-radius: 50%; /* Circular icon */
+	margin-bottom: 8px; /* Space below the icon */
+  }
+
+  /* Style for subreddit titles */
+  .subreddit-title {
+	font-size: 1.2rem; /* Larger font size for titles */
+	font-weight: bold;
+	margin: 8px 0; /* Space above and below titles */
+  }
+
+  /* Style for the error message */
+  .error-message {
+	color: red; /* Red color for errors */
+	margin-top: 16px;
+  }
